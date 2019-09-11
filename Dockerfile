@@ -1,4 +1,4 @@
-FROM FROM docker:stable
+FROM docker:stable
 
 COPY LICENSE README.md /
 

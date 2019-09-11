@@ -1,5 +1,17 @@
-# Container Action Template
+# MySQL GitHub Action
 
-To get started, click the `Use this template` button on this repository [which will create a new repository based on this template](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/).
+This [GitHub Action](https://github.com/features/actions) sets up a Dynamodb Local database.
 
-For info on how to build your first Container action, see the [toolkit docs folder](https://github.com/actions/toolkit/blob/master/docs/container-action.md).
+## Usage
+
+```yaml
+steps:
+- uses: lekki/dynamodb-local-action@v0.1
+  with:
+    host port: 8000 # Optional, default value is 8000. The port of host
+    container port: 8000 # Optional, default value is 800. The port of container
+```
+
+## License
+
+This project is released under the [MIT License](LICENSE).

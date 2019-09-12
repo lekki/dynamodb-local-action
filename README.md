@@ -1,6 +1,6 @@
 # MySQL GitHub Action
 
-This [GitHub Action](https://github.com/features/actions) sets up a Dynamodb Local database.
+This [GitHub Action](https://github.com/features/actions) sets up a Dynamodb Local database. It was inspired by https://github.com/mirromutth/mysql-action 
 
 ## Usage
 

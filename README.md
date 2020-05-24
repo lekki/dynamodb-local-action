@@ -8,8 +8,8 @@ This [GitHub Action](https://github.com/features/actions) sets up a Dynamodb Loc
 steps:
 - uses: lekki/dynamodb-local-action@v0.1
   with:
-    host port: 8000 # Optional, default value is 8000. The port of host
-    container port: 8000 # Optional, default value is 800. The port of container
+    host_port: 8000 # Optional, default value is 8000. The port of host
+    container_port: 8000 # Optional, default value is 800. The port of container
 ```
 
 ## License
